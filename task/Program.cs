@@ -19,8 +19,8 @@ int n = 3;
 int size = 6;
 string[] arrayOne = new string[size];
 System.Console.WriteLine($"Введите набор символов, обозначающих значение стркогвого элемента массива, {size} раз через Enter, без пробелов: ");
-//FormArray(arrayOne);
-ArrayRandomly(arrayOne);
+FormArray(arrayOne);
+// ArrayRandomly(arrayOne); вариант заполнения массива рандомно
 Console.Clear();
 PrintArray(arrayOne);
 System.Console.WriteLine();
